@@ -15,6 +15,10 @@ github.com/zvolsky/plugin_manage_groups
 - Adaptive with small or large count of users/members.
 - Non default table names for auth are allowed.
 
+## How to use it
+Navigate to ```(app)/plugin_manage_groups```
+or to ```(app)/plugin_manage_groups/group/(group-name)```
+
 ## Configuration
 Configuration is not necessary, but it is possible with the PluginManager, i.e. set
 ```
