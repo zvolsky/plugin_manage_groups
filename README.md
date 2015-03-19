@@ -17,10 +17,10 @@ github.com/zvolsky/plugin_manage_groups
 
 ## Configuration
 Configuration is not necessary, but it is possible with the PluginManager, i.e. set
-
-```plugins.manage_groups.(configuration-parameter)=(value)```
-
-in model db.py (or other, alphabetically after db.py but before plugin_.py)
+```
+plugins.manage_groups.(configuration-parameter)=(value)
+```
+in model db.py (or other, alphabetically after db.py but before plugin_.py).
 
 Configuration parameters and their defaults:
 
