@@ -7,10 +7,10 @@ zvolsky@seznam.cz, mirek.zvolsky@gmail.com,
 github.com/zvolsky/plugin_manage_groups
 
 - Auto-**create the 'admin' group** and **make the first user its member**.
-- Allow **creating new groups** via (app)/plugin_manage_groups/group/(new-group-name).
-- Allow **add and delete memberships** to the group at (app)/plugin_manage_groups/group/(group-name).
-  - For the 'admin' group there is shortcut: (app)/plugin_manage_groups
-- Links to switch managed groups at (app)/plugin_manage_groups/group/(group-name).
+- Allow **creating new groups** via ```(app)/plugin_manage_groups/group/(new-group-name)```.
+- Allow **add and delete memberships** to the group at ```(app)/plugin_manage_groups/group/(group-name)```.
+  - For the 'admin' group there is shortcut: ```(app)/plugin_manage_groups```
+- Links to switch managed groups at ```(app)/plugin_manage_groups/group/(group-name)```.
 - **Deleting of empty groups** at same page.
 - Adaptive with small or large count of users/members.
 - Non default table names for auth are allowed.
