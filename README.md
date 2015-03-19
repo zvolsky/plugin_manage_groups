@@ -21,6 +21,7 @@ i.e. set **plugins.manage_groups.(configuration-parameter)=(value)** in model db
 
 Configuration parameters and their defaults:
 
+| parame | default | meaning |
 | ------ | ------ | ------ |
 | first_admin | True | if admin group will be auto-created and the 1st user made admin member |
 | admin_group | 'admin' | name of the admin group |
