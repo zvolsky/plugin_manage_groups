@@ -16,12 +16,12 @@ github.com/zvolsky/plugin_manage_groups
 - Non default table names for auth are allowed.
 
 ## Configuration
-Configuration is not necessary, but it is possible with the PluginManager,
-i.e. set **plugins.manage_groups.(configuration-parameter)=(value)** in model db.py (or other, alphabetically after db.py but before plugin_.py)
+Configuration is not necessary, but it is possible with the PluginManager, i.e. set ```**plugins.manage_groups.(configuration-parameter)=(value)**```
+in model db.py (or other, alphabetically after db.py but before plugin_.py)
 
 Configuration parameters and their defaults:
 
-| parame | default | meaning |
+| param | default | meaning |
 | ------ | ------ | ------ |
 | first_admin | True | if admin group will be auto-created and the 1st user made admin member |
 | admin_group | 'admin' | name of the admin group |
