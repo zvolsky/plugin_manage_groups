@@ -22,7 +22,7 @@ plugins.manage_groups.(configuration-parameter)=(value)
 ```
 in model db.py (or other, alphabetically after db.py but before plugin_.py).
 
-Configuration parameters and their defaults:
+**Configuration parameters and their defaults**:
 
 | param | default | meaning |
 | ------ | ------ | ------ |
