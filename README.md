@@ -16,15 +16,18 @@ github.com/zvolsky/plugin_manage_groups
 - Non default table names for auth are allowed.
 
 ## How to use it
-Navigate to ```(app)/plugin_manage_groups```
-or to ```(app)/plugin_manage_groups/group/(group-name)```
+
+Navigate to: ```(app)/plugin_manage_groups```
+
+or to: ```(app)/plugin_manage_groups/group/(group-name)```
 
 ## Configuration
+
 Configuration is not necessary, but it is possible with the PluginManager, i.e. set
 ```
 plugins.manage_groups.(configuration-parameter)=(value)
 ```
-in model db.py (or other, alphabetically after db.py but before plugin_.py).
+in model db.py (or other model, alphabetically after db.py but before plugin_.py).
 
 **Configuration parameters and their defaults**:
 
