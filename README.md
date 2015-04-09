@@ -1,5 +1,5 @@
 # plugin_manage_groups
-Web2py plugin to manage groups and group membership of the users.
+**Web2py plugin to manage groups and group membership of the users.**
 
 (C) Zvolsky, licensing same as Web2py
 
