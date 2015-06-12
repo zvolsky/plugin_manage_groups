@@ -24,6 +24,8 @@ Navigate to: ```(app)/plugin_manage_groups```
 
 or to: ```(app)/plugin_manage_groups/group/(group-name)```
 
+Use defined group membership in the standard manner, i.e. @auth.requires_membership('groupname') -or- if auth.has_membership('groupname').
+
 ## Configuration
 
 Configuration is not necessary, but it is possible with the PluginManager, i.e. set
@@ -41,3 +43,7 @@ in model db.py (or other model, alphabetically after db.py but before plugin_.py
 | create | True | can be new groups created when navigating to plugin_manage_groups/group/(group_name)? |
 | limit_dense_rows | 11 | when there are less users they will output each user on separate line |
 | limit_hide_users | 61 | starting from this user count, users will be not listed and are selectable with the html input field only |
+
+## Caveats
+
+Use only ASCII characters in group names. Hope this is not problem, because membership administration and group names are accessible for admins only.
