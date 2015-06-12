@@ -7,7 +7,7 @@ zvolsky@seznam.cz, mirek.zvolsky@gmail.com,
 
 sources: ```github.com/zvolsky/plugin_manage_groups```
 
-download (published using gh-pages branch): ```zvolsky.github.io/plugin_manage_groups/web2py.plugin.manage_groups.w2p```
+download (published using gh-pages branch): [zvolsky.github.io/plugin_manage_groups/web2py.plugin.manage_groups.w2p](https://zvolsky.github.io/plugin_manage_groups/web2py.plugin.manage_groups.w2p)
 
 - Auto-**create the 'admin' group** and **make the first user its member**.
 - Allow **creating new groups** via ```(app)/plugin_manage_groups/group/(new-group-name)```.
