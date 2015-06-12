@@ -36,8 +36,8 @@ in model db.py (or other model, alphabetically after db.py but before plugin_.py
 
 | param | default | meaning |
 | ------ | ------ | ------ |
-| first_admin | True | if admin group will be auto-created and the 1st user made admin member |
+| first_admin | True | should be admin group auto-created and the 1st user made admin member? |
 | admin_group | 'admin' | name of the admin group |
-| create | True | if new groups can be created when navigating to plugin_manage_groups/group/(group_name) |
-| limit_dense_rows | 11 | when less users/members, it will output each user on separate line |
-| limit_hide_users | 61 | when so many or more users, they will be not listed and are selectable with the html input field |
+| create | True | can be new groups created when navigating to plugin_manage_groups/group/(group_name)? |
+| limit_dense_rows | 11 | when there are less users they will output each user on separate line |
+| limit_hide_users | 61 | starting from this user count, users will be not listed and are selectable with the html input field only |
