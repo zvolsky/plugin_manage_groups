@@ -1,6 +1,6 @@
-# MOVED TO https://github.com/web2py-plugins/web2py-plugins
+# OBSOLETE, MOVED TO https://github.com/web2py-plugins/web2py-plugins
 
-# plugin_manage_groups
+## plugin_manage_groups
 **Web2py plugin to manage groups and group membership of the users.**
 
 (C) Zvolsky, licensing same as Web2py
